@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/arbutus</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cousine_bold</item>
+        <item>@font/croissant_one</item>
+        <item>@font/fontdiner_swanky</item>
+        <item>@font/wellfleet</item>
+    </array>
+</resources>

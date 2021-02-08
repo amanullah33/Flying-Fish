@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Flying Fish</string>
+
+    <string-array name="age">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Sukrabad</item>
+        <item>Tollabagh</item>
+        <item>Subahanbagh</item>
+        <item>West Raza Bazar</item>
+        <item>East Raza Bazar</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="softDrink">
+        <item>7up</item>
+        <item>Coca Cola</item>
+        <item>Clemon</item>
+        <item>Fanta</item>
+        <item>Pran Up</item>
+        <item>Pepsi</item>
+        <item>Sprite</item>
+        <item>Tiger</item>
+        <item>Speed</item>
+        <item>Black Horse</item>
+        <item>Mountain Dew</item>
+        <item>Mojo</item>
+    </string-array>
+
+    <string name="about">
+        This Game is Developed for Solving Soft Drinks Companys Data Collection Problem. Using this Game, we will just collect users basic choice about Soft Drink. After Collecting those data, using Machine Learning we will product Statistical Analysis about soft drink. When user will install it and open it, they can see our Companys Logo. Its a Splash Screen only for 3 seconds. After that they will redirected in another Activity. From here they can chose play or know about this Game. When they click on about the game then they will be redirected in this Activity. If they click on Play button, they will go to in another Splash Activity. Where they can see the Game name and a fish logo. Thats also a Splash Screen for 3 seconds. After 3 seconds it will also be redirected in Sighup Page. Where they need to select some basic questions answer. This Signup Page only for First Time User. After that it will never show anymore. After selected information, when people click on Submit, they will be redirected in Game View Activity. Where they can play the game. If anyone will get score 100 or more then it, they will get their Gift. So, they will redirect in another Activity. If they canot do that, then they will be redirected in Game over page. Where they can see their Score and also 2 buttons. One for Play the game again and another one for know about Developer. When they click on play Again button they can play the game again. If they will click on About Us button then they will go in another Activity which is about the Developer. There they can see the Picture, Name and basic Information about Developer. If they go in Gift Activity, then they will get a chance to choose their Gift. Which Soft Drink they want to get as a gift. After selecting when they click on Grab the Reward button, they will get their desire Reward. From that Activity,they also can play the game. Thats all about this Game.
+    </string>
+
+</resources>

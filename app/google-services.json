@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730263588000",
+    "project_id": "flying-fish-9690d",
+    "storage_bucket": "flying-fish-9690d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730263588000:android:b684c6b05193259d1f0dc5",
+        "android_client_info": {
+          "package_name": "com.amanullah.flyingfish2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730263588000-bq25mh0bkn7r00v8ib95fdqrtki073t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQ8mMEk4MK896_SgpJT1jt6g1Jp1xsu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730263588000-bq25mh0bkn7r00v8ib95fdqrtki073t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

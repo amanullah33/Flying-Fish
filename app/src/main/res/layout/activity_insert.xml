@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/signupbg"
+    android:padding="60dp"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:id="@+id/displayScoreTextViewId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/arbutus"
+        android:text="Score = "
+        android:textColor="#FFFF00"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Reward"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insertSpinnerId"
+        android:entries="@array/softDrink"
+        />
+
+    <Button
+        android:id="@+id/insertButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#2f1431"
+        android:fontFamily="@font/croissant_one"
+        android:padding="10dp"
+        android:text="Grab Your Reward"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
