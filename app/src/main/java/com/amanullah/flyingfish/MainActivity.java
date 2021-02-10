@@ -1,4 +1,4 @@
-package com.amanullah.flyingfish2;
+package com.amanullah.flyingfish;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -12,7 +12,7 @@ import java.util.TimerTask;
 public class MainActivity extends AppCompatActivity {
 
     private FlyingFishView gameView;
-    private Handler handler = new Handler();
+    private final Handler handler = new Handler();
     private final static long Interval = 30;
 
     @Override

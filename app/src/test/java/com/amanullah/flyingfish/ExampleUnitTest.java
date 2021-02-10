@@ -1,4 +1,4 @@
-package com.amanullah.flyingfish2;
+package com.amanullah.flyingfish;
 
 import org.junit.Test;
 

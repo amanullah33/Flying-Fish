@@ -1,4 +1,4 @@
-package com.amanullah.flyingfish2;
+package com.amanullah.flyingfish;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

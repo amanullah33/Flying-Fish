@@ -1,4 +1,4 @@
-package com.amanullah.flyingfish2;
+package com.amanullah.flyingfish;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.view.View;
 
 public class FlyingFishView extends View {
 
-    private Bitmap fish[] = new Bitmap[2];
-    private int fishX = 10;
+    private final Bitmap[] fish = new Bitmap[2];
+    private final int fishX = 10;
     private int fishY;
     private int fishSpeed;
 
@@ -22,23 +22,29 @@ public class FlyingFishView extends View {
 
     private int canvasWidth, canvasHeight;
 
-    private int yellowX, yellowY, yellowSpeed = 16;
-    private Paint yelloPaint = new Paint();
+    private int yellowX;
+    private int yellowY;
+    private final int yellowSpeed = 16;
+    private final Paint yelloPaint = new Paint();
 
-    private int greenX, greenY, greenSpeed = 20;
-    private Paint greenPaint = new Paint();
+    private int greenX;
+    private int greenY;
+    private final int greenSpeed = 20;
+    private final Paint greenPaint = new Paint();
 
-    private int redX, redY, redSpeed = 25;
-    private Paint redPaint = new Paint();
+    private int redX;
+    private int redY;
+    private final int redSpeed = 25;
+    private final Paint redPaint = new Paint();
 
 
     private int score, lifeCounterOfFish;
 
-    private Bitmap backgroundImage;
+    private final Bitmap backgroundImage;
 
-    private Paint scorePaint = new Paint();
+    private final Paint scorePaint = new Paint();
 
-    private Bitmap life[] = new Bitmap[2];
+    private final Bitmap[] life = new Bitmap[2];
 
     public FlyingFishView(Context context) {
         super(context);
@@ -170,10 +176,7 @@ public class FlyingFishView extends View {
     }
 
     public boolean hitBallChecker(int x, int y){
-        if (fishX < x && x < (fishX + fish[0].getWidth()) && fishY < y && y < (fishY + fish[0].getHeight())){
-            return true;
-        }
-        return false;
+        return fishX < x && x < (fishX + fish[0].getWidth()) && fishY < y && y < (fishY + fish[0].getHeight());
     }
 
     @Override

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amanullah.flyingfish2">
+    package="com.amanullah.flyingfish">
 
     <application
         android:allowBackup="true"
@@ -9,22 +9,22 @@
         android:roundIcon="@drawable/splash_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlyingFish2">
-        <activity android:name=".AboutActivity"/>
-        <activity android:name=".LogoActivity">
+        <activity android:name="com.amanullah.flyingfish.AboutActivity"/>
+        <activity android:name="com.amanullah.flyingfish.LogoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity" />
-        <activity android:name=".NextActivity" />
-        <activity android:name=".InsertActivity" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".AboutUsActivity" />
-        <activity android:name=".GameOverActivity" />
-        <activity android:name=".SplashActivity"/>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.amanullah.flyingfish.StartActivity" />
+        <activity android:name="com.amanullah.flyingfish.NextActivity" />
+        <activity android:name="com.amanullah.flyingfish.InsertActivity" />
+        <activity android:name="com.amanullah.flyingfish.SignUpActivity" />
+        <activity android:name="com.amanullah.flyingfish.AboutUsActivity" />
+        <activity android:name="com.amanullah.flyingfish.GameOverActivity" />
+        <activity android:name="com.amanullah.flyingfish.SplashActivity"/>
+        <activity android:name="com.amanullah.flyingfish.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

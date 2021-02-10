@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "730263588000",
-    "project_id": "flying-fish-9690d",
-    "storage_bucket": "flying-fish-9690d.appspot.com"
+    "project_number": "253689954853",
+    "project_id": "flying-fish-eda4b",
+    "storage_bucket": "flying-fish-eda4b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:730263588000:android:b684c6b05193259d1f0dc5",
+        "mobilesdk_app_id": "1:253689954853:android:11b889366336fcf78635cc",
         "android_client_info": {
-          "package_name": "com.amanullah.flyingfish2"
+          "package_name": "com.amanullah.flyingfish"
         }
       },
       "oauth_client": [
         {
-          "client_id": "730263588000-bq25mh0bkn7r00v8ib95fdqrtki073t1.apps.googleusercontent.com",
+          "client_id": "253689954853-glq0e4sv8oo6l4uk7ribis4ufmo0ds75.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBNQ8mMEk4MK896_SgpJT1jt6g1Jp1xsu0"
+          "current_key": "AIzaSyAKpJMqMv1jKpgGjIvr3TqOdU6X7kP_GLY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "730263588000-bq25mh0bkn7r00v8ib95fdqrtki073t1.apps.googleusercontent.com",
+              "client_id": "253689954853-glq0e4sv8oo6l4uk7ribis4ufmo0ds75.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
